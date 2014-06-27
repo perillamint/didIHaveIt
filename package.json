@@ -1,0 +1,23 @@
+{
+  "name": "didihaveit",
+  "title": "Did I have it?",
+  "id": "jid1-uleFlCNQAuzvUQ",
+  "description": "Display 'Already Own!' label on games which I have in Steam. (Currently supported store: humble store)",
+  "author": "maneulyori",
+  "license": "GPL v3",
+  "version": "0.1",
+
+  "preferences": [{
+    "name": "userSteamID",
+    "title": "Users SteamID64",
+    "description": "Users SteamID 64",
+    "type": "string"
+  },
+  {
+    "name": "updateCollection",
+    "title": "Update collection",
+    "description": "Update your steam library collection.",
+    "type": "control",
+    "label": "Update"
+  }]
+}
